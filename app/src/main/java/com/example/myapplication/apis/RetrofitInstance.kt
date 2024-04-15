@@ -22,7 +22,7 @@ object RetrofitInstance {
     val api: VideoApi by lazy {
 
         Retrofit.Builder()
-            .baseUrl("http://0.tcp.in.ngrok.io:11477/")
+            .baseUrl("http://0.tcp.in.ngrok.io:17820/")
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()

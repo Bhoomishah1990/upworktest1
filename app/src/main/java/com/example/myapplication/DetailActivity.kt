@@ -4,17 +4,12 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.viewpager2.widget.ViewPager2
 import com.example.myapplication.adapter.ImagesAdapter
-import com.example.myapplication.adapter.VideoAdapter
 import com.example.myapplication.databinding.ActivityDetailLayoutBinding
-import com.example.myapplication.databinding.ActivityMainBinding
 import com.example.myapplication.models.Result
 import com.example.myapplication.models.getSerializable
 import com.example.myapplication.ui.theme.utils
-import com.example.myapplication.viewmodels.VideoViewModel
 
 class DetailActivity : AppCompatActivity() {
 

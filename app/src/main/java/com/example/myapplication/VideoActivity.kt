@@ -5,15 +5,10 @@ import android.net.Uri
 import android.os.Bundle
 import android.widget.MediaController
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProvider
-import com.example.myapplication.adapter.VideoAdapter
-import com.example.myapplication.databinding.ActivityDetailLayoutBinding
-import com.example.myapplication.databinding.ActivityMainBinding
 import com.example.myapplication.databinding.ActivityVideoPlayBinding
 import com.example.myapplication.models.Result
 import com.example.myapplication.models.getSerializable
 import com.example.myapplication.ui.theme.utils
-import com.example.myapplication.viewmodels.VideoViewModel
 
 class VideoActivity : AppCompatActivity() {
 
